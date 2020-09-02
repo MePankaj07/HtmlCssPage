@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-us></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .rightNav input[type="text"] {
+
+            padding: 5px;
+            font-size: 17px;
+            border: 2px solid #3498db;
+            border-radius: 9px;
+            width: 100px;
+        }
+
+        .rightNav input[type="text"]:focus {
+            width: 200px;
+            border-color: #2ecc71;
+        }
+        .contact{
+            background-image: url('log1.jpg');
+            background-size: cover;
+        }
+        h2{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar background h-nav">
+        <ul class="nav-list v-class">
+            <div class="logo"><img src="logo2.jpg" alt="logo"></div>
+            <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+            <li><a href="About">About us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="#Services">Service</a></li>
+        </ul>
+        <div class="rightNav v-class ">
+            <input type="text" name="Search" id="Search">
+            <button class="btn btn-sm "><i class="fa fa-search"></i></button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <section class="contact">
+        <h2 class="text-center">Contact us.</h2>
+        <div class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name">
+            <input class="form-input" type="email" name="email" id="email" placeholder="Enter your E-mail">
+            <input class="form-input" type="Phone" name="Phone" id="Phone" placeholder="Enter your Phone">
+            <textarea class="form-input" name="text" id="text" cols="30" rows="10"
+                placeholder="Enter your Concern"></textarea>
+            <button class=" btn btn-sm btn-dark"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+        </div>
+    </section>
+</body>
+
+</html>
